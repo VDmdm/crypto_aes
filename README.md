@@ -4,7 +4,8 @@ go run aes.go [flags]
 ```
 или
 ```sh
-go build aes.go -o aes; ./aes.go [flags].
+go build aes.go -o aes
+./aes.go [flags]
 ```
 ## Флаги запуска
 - -f [путь к файлу] – путь к файлу для зашифрования / расшифрованию;
